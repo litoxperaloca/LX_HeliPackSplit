@@ -1,0 +1,10 @@
+UI_EN = {
+    UI_LXHP_name = "LX Heli Pack Split-Screen",
+    UI_LXHP_desc = "Split-screen and controller support for Heli Pack. Player 2 can finally fly, and the sticks give finer control than the keyboard ever could.",
+    UI_LXHP_layout = "Stick layout (1 helicopter, 2 game)",
+    UI_LXHP_layout_tip = "1 = how a real helicopter works: left stick is collective (up/down) and pedals (turn), right stick is the cyclic (forward/back and sideways). 2 = what you expect coming from a car: left stick is forward/back and turn, right stick is up/down and sideways.",
+    UI_LXHP_dead = "Stick dead zone",
+    UI_LXHP_dead_tip = "Sticks never rest at exactly zero. Below this the stick is ignored, and what is left is rescaled so the useful travel still runs from 0 to 1 instead of jumping. Raise it if your helicopter drifts on its own.",
+    UI_LXHP_invert = "Invert the vertical axis",
+    UI_LXHP_invert_tip = "Push forward to descend, like a flight stick.",
+}

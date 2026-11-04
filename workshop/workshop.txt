@@ -1,0 +1,83 @@
+version=1
+id=
+title=LX Heli Pack Split-Screen Fix [B42]
+description=[h1]LX Heli Pack Split-Screen Fix[/h1]
+description=Splitscreen / split screen / local couch co-op fix for the Heli Pack mod (Black Hawk, Apache, Little Bird, EC135, Kiowa) in Project Zomboid Build 42 (B42), plus the gamepad support it never had at all. Player 2 can finally fly.
+description=Heli Pack is five copies of the same code and 81% of its player lookups are pinned to player 1. Fixing that turned out to need 38 changes, not four hundred.
+description=
+description=[h2]What it does[/h2]
+description=[list]
+description=[*][b]Player 2 could not fly at all[/b] - The mod asks whether PLAYER 0 is sitting in an aircraft.
+description=[*][b]And your helicopter was flown with the other player's controls[/b] - This one is worse than being locked out.
+description=[*][b]Both sticks now fly, and better than the keyboard[/b] - There was no controller support whatsoever: zero JoypadState and zero getJoypadData across 42269 lines.
+description=[*][b]The layout is yours to choose[/b] - Default is how a real helicopter works: left stick climbs and turns, right stick is the cyclic. One setting swaps it for what you expect coming from a car.
+description=[*][b]Five helicopters, one set of patches[/b] - Heli Pack is five copies of the same code, 87% to 98% identical, so every patch was written once and verified separately against all five.
+description=[*][b]Nothing of Heli Pack is redistributed[/b] - Its files are read from your installed copy at load time, patched in memory and run from there.
+description=[/list]
+description=[b]Requires:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3822141121]Heli Pack[/url]
+description=[b]Load it AFTER[/b] Heli Pack.
+description=[b]Install:[/b] Subscribe, then enable it under Mods in the main menu. In split-screen, enabling it once covers every player.
+description=[b]Options:[/b] Main menu > Options > MODS > "LX Heli Pack Split": stick layout (helicopter or game), dead zone, and inverted vertical axis. The split-screen fixes are always on and have nothing to configure.
+description=[b]License:[/b] CC0 1.0 - public domain. Do anything you want with it, no permission needed.
+description=[b]Full details in English, Spanish and Russian:[/b] [url=https://github.com/litoxperaloca/LX_HeliPackSplit]GitHub[/url]
+description=
+description=[hr][/hr]
+description=[h2]Español[/h2]
+description=Arreglo de pantalla dividida (splitscreen, split screen, coop local de sillon) para el mod Heli Pack (Black Hawk, Apache, Little Bird, EC135, Kiowa) en Project Zomboid Build 42 (B42), mas el soporte de mando que directamente no tenia. El jugador 2 por fin puede volar.
+description=Heli Pack son cinco copias del mismo codigo y el 81% de sus busquedas de jugador estan clavadas en el jugador 1. Arreglarlo resulto ser 38 cambios, no cuatrocientos.
+description=
+description=[h2]Qué hace[/h2]
+description=[list]
+description=[*][b]El jugador 2 directamente no podia volar[/b] - El mod pregunta si el JUGADOR 0 esta sentado en una aeronave.
+description=[*][b]Y tu helicoptero se volaba con los controles del otro[/b] - Este es peor que quedarse afuera.
+description=[*][b]Los dos sticks vuelan, y mejor que el teclado[/b] - No habia absolutamente nada de mando: cero JoypadState y cero getJoypadData en 42269 lineas.
+description=[*][b]El mapeo lo elegis vos[/b] - Por defecto es como funciona un helicoptero de verdad: stick izquierdo sube y gira, derecho es el ciclico.
+description=[*][b]Cinco helicopteros, un solo juego de parches[/b] - Heli Pack son cinco copias del mismo codigo, entre 87% y 98% identicas, asi que cada parche se escribio una vez y se verifico por separado contra las cinco.
+description=[*][b]No se redistribuye nada de Heli Pack[/b] - Sus archivos se leen de tu copia instalada al cargar, se parchean en memoria y se ejecutan desde ahi.
+description=[/list]
+description=[b]Requiere:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3822141121]Heli Pack[/url]
+description=[b]Cargá este DESPUÉS de[/b] Heli Pack.
+description=[b]Instalación:[/b] Suscribite y activalo en Mods, en el menú principal. En pantalla dividida, con activarlo una vez alcanza para todos.
+description=[b]Opciones:[/b] Menu principal > Opciones > MODS > "LX Heli Pack Split": mapeo de sticks (helicoptero o juego), zona muerta y eje vertical invertido. Las correcciones de pantalla dividida estan siempre activas y no se configuran.
+description=[b]Licencia:[/b] CC0 1.0 - dominio público. Hacé lo que quieras, sin pedir permiso.
+description=[b]Detalle completo en inglés, español y ruso:[/b] [url=https://github.com/litoxperaloca/LX_HeliPackSplit]GitHub[/url]
+description=
+description=[hr][/hr]
+description=[h2]Русский[/h2]
+description=Исправление разделённого экрана (splitscreen, локальный кооп) для мода Heli Pack (Black Hawk, Apache, Little Bird, EC135, Kiowa) в Project Zomboid Build 42 (B42) и поддержка геймпада, которой не было вовсе. Второй игрок наконец может летать.
+description=Heli Pack - пять копий одного кода, и 81% обращений к игроку привязан к первому. Исправление заняло 38 изменений, а не четыреста.
+description=
+description=[h2]Что делает[/h2]
+description=[list]
+description=[*][b]Второй игрок вообще не мог летать[/b] - Мод спрашивает, сидит ли ПЕРВЫЙ игрок в летательном аппарате.
+description=[*][b]А ваш вертолёт летел по чужим органам управления[/b] - Это хуже, чем остаться без доступа.
+description=[*][b]Оба стика летают, и лучше клавиатуры[/b] - Поддержки геймпада не было совсем: ноль JoypadState и ноль getJoypadData на 42269 строк.
+description=[*][b]Раскладку выбираете вы[/b] - По умолчанию - как у настоящего вертолёта.
+description=[*][b]Пять вертолётов, один набор патчей[/b] - Heli Pack - пять копий одного кода, идентичных на 87-98%, поэтому каждый патч написан один раз…
+description=[*][b]Ничего из Heli Pack не распространяется[/b] - Его файлы читаются из вашей копии при загрузке, патчатся в памяти и запускаются оттуда.
+description=[/list]
+description=[b]Требует:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3822141121]Heli Pack[/url]
+description=[b]Загружать ПОСЛЕ[/b] Heli Pack.
+description=[b]Установка:[/b] Подпишитесь и включите мод в разделе Моды главного меню. При разделённом экране достаточно одного раза для всех.
+description=[b]Настройки:[/b] Главное меню > Настройки > МОДЫ > «LX Heli Pack Split»: раскладка стиков, мёртвая зона и инверсия вертикали.
+description=[b]Лицензия:[/b] CC0 1.0 - общественное достояние. Делайте что угодно, разрешение не нужно.
+description=[b]Полное описание на английском, испанском и русском:[/b] [url=https://github.com/litoxperaloca/LX_HeliPackSplit]GitHub[/url]
+description=
+description=[hr][/hr]
+description=[b]If these mods made your co-op run work, you can buy me a coffee:[/b] [url=https://ko-fi.com/litoxperaloca]ko-fi.com/litoxperaloca[/url]
+description=
+description=[b]More in the LX Splitscreen & Gamepad Mods suite:[/b]
+description=[list]
+description=[*]LX Split-Screen Co-op Fixes [B42]
+description=[*]LX Split Aim — Controller Aim Assist [B42]
+description=[*]LX Split-Screen Quick Build [B42]
+description=[*]LX A-Life Split-Screen Fix [B42]
+description=[*]LX Bandits Split-Screen Fix [B42]
+description=[*]LX Split-Screen Starter Kit [B42]
+description=[*]LX Split-Screen Skills Boost [B42]
+description=[*]LX Theodore Split-Screen Fix [B42]
+description=[*]LX NPC Bases Split-Screen Fix [B42]
+description=[*]LX HydeCo Underground Split-Screen Fix [B42]
+description=[/list]
+tags=Build 42;Multiplayer;Vehicles;Misc
+visibility=public

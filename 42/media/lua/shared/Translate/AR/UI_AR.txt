@@ -1,0 +1,10 @@
+UI_AR = {
+    UI_LXHP_name = "LX Heli Pack pantalla dividida",
+    UI_LXHP_desc = "Pantalla dividida y mando para Heli Pack. El jugador 2 por fin puede volar, y los sticks dan un control mas fino que el que el teclado podria dar.",
+    UI_LXHP_layout = "Mapeo de sticks (1 helicoptero, 2 juego)",
+    UI_LXHP_layout_tip = "1 = como un helicoptero de verdad: stick izquierdo es colectivo (subir/bajar) y pedales (giro), stick derecho es el ciclico (adelante/atras y lateral). 2 = lo que esperas viniendo de un auto: izquierdo adelante/atras y giro, derecho subir/bajar y lateral.",
+    UI_LXHP_dead = "Zona muerta del stick",
+    UI_LXHP_dead_tip = "Los sticks nunca descansan exactamente en cero. Por debajo de esto se ignora, y lo que queda se reescala para que el recorrido util siga yendo de 0 a 1 en vez de arrancar de golpe. Subila si el helicoptero se te va solo.",
+    UI_LXHP_invert = "Invertir el eje vertical",
+    UI_LXHP_invert_tip = "Empujar adelante para bajar, como una palanca de vuelo.",
+}
